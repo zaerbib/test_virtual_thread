@@ -30,6 +30,6 @@ public class HowManyThreadHelper {
         }
 
         long time = System.currentTimeMillis() - startTime;
-        System.out.printf("Virtual threads caught up : %,d running after %,d", runningThreads, time);
+        System.out.printf("Virtual threads caught up : %,d running after %,d ms%n", runningThreads, time);
     }
 }
